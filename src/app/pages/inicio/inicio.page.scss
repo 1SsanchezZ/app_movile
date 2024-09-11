@@ -1,0 +1,28 @@
+ion-content {
+    --background: #ffffff;
+    --color: #000000;
+  }
+  
+  ion-header, ion-toolbar, ion-title {
+    --background: #ffffff;
+    --color: #000000;
+  }
+  
+  h1 {
+    color: #000000;
+  }
+  
+  ion-label {
+    color: #000000;
+  }
+  
+  a {
+    color: #000000;
+  }
+  ion-item {
+    --color: #000000; /* Cambia el color del texto en general dentro de ion-item */
+    --background: #ffffff; /* Asegúrate de que el fondo de los ion-items sea blanco */
+  }
+  ion-toolbar {
+    --background: #ffca51  /* Gris claro */
+  }

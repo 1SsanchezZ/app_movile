@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">Asistencia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding ion-text-center">
+  <h1>¡REGISTRATE AQUI!</h1>
+
+  <ion-item>
+    <ion-label position="floating"></ion-label>
+    <ion-input label="Usuario" label-placement="floating" fill="outline" placeholder="Correo electronico" [(ngModel)]="loginUsuario" style="font-size: 20px;"></ion-input>
+  </ion-item>
+  
+  <ion-item>
+    <ion-label position="floating"></ion-label>
+    <ion-input  label="Contraseña" label-placement="floating" fill="outline" placeholder="Contraseña" type="password" [(ngModel)]="loginContrasena" style="font-size: 20px;"></ion-input>
+  </ion-item>
+  
+  
+  <ion-button class="ion-margin-top" expand="Ingresar" (click)="validarcredenciales()">Ingresar</ion-button>
+
+<p class="ion-margin-top">
+    <a href="#" class="ion-text-center">Crear cuenta</a>
+  </p>
+
+  <ion-text class="ion-text-center" [routerLink]="['/recuperar']">
+    <p>¿Olvidaste tu Contrasena?</p>
+  </ion-text>
+
+  <div class="image-container ion-margin-top">
+    <img src="assets/images/Logo-Duoc-UC.png" style="max-width: 100%; height: auto;">
+  </div>
+
+</ion-content>

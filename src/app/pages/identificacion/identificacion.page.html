@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">Asistencia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding ion-text-center">
+  <h1>¡IDENTIFICATE!</h1>
+
+  <div class="wrapper">
+    <div class="ion-activatable ripple-parent rounded-rectangle">
+      Profesor
+      <ion-ripple-effect></ion-ripple-effect>
+    </div>
+  </div>
+
+  <div class="wrapper" (click)="goToLogin()">
+    <div class="ion-activatable ripple-parent rounded-rectangle">
+      Estudiante
+      <ion-ripple-effect></ion-ripple-effect>
+    </div>
+  </div>
+  
+  <div class="image-container ion-margin-top">
+    <img src="assets/images/Logo-Duoc-UC.png" style="max-width: 100%; height: auto;">
+  </div>
+</ion-content>

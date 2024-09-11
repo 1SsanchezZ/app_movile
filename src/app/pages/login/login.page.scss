@@ -1,0 +1,58 @@
+ion-content {
+    --background: #ffffff;
+    --color: #000000;
+  }
+  
+  ion-header, ion-toolbar, ion-title {
+    --background: #ffffff;
+    --color: #000000;
+  }
+  
+  h1 {
+    color: #000000;
+  }
+  
+  ion-label {
+    color: #000000;
+  }
+  
+  a {
+    color: #000000;
+  }
+  ion-item {
+    --color: #000000; /* Cambia el color del texto en general dentro de ion-item */
+    --background: #ffffff; /* Asegúrate de que el fondo de los ion-items sea blanco */
+    margin-bottom: 30px; /* Añade espacio entre los campos */
+  }
+  
+  ion-label {
+    --color: #000000; /* Cambia el color de la etiqueta flotante */
+    color: #000000;
+  }
+  
+  ion-input {
+    --color: #000000; /* Cambia el color del texto dentro del input */
+    --placeholder-color: #000000; /* Cambia el color del placeholder */
+  }
+    
+  /* Fondo gris para la barra de herramientas del encabezado */
+ion-toolbar {
+    --background: #ffca51  /* Gris claro */
+  }
+  
+ /* En tu archivo de estilos CSS */
+ion-button {
+  --background: #181d5f; /* Color de fondo del botón */
+  --color: #ffffff;     /* Color del texto del botón */
+}
+
+  :host ::ng-deep ion-input .native-input::placeholder {
+    font-size: 20px; /* Cambia el tamaño de la fuente del placeholder */
+  }
+  /* En el archivo .scss del componente */
+.image-container {
+  img {
+    width: 80%;  /* Ajusta el porcentaje según necesites */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+}

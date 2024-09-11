@@ -1,0 +1,76 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 170px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ripple-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  user-select: none;
+}
+
+.rounded-rectangle {
+  width: 250px;
+  height: 75px;
+  border-radius: 8px;
+  border: 3px solid #000000; /* Borde negro de 3px */
+  background-color: #ffffff;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+/* Colores y tipografía */
+ion-content {
+  --background: #ffffff;
+  --color: #000000;
+}
+
+ion-header, ion-toolbar, ion-title {
+  --background: #ffca51; /* Fondo amarillo suave */
+  --color: #000000;
+}
+
+h1 {
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+ion-item {
+  --color: #000000;
+  --background: #ffffff;
+  margin-bottom: 20px;
+}
+
+ion-label, ion-input {
+  --color: #000000;
+  color: #000000;
+}
+
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+/* Ajuste para centrar la imagen */
+.image-container {
+  img {
+    width: 80%; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    max-width: 400px; /* Ajuste máximo del tamaño de la imagen */
+  }
+}
